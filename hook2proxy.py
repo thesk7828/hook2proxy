@@ -9,7 +9,7 @@ try:
     with open(sys.argv[1]) as f:
         data=json.load(f)
 except FileNotFoundError:
-    print("seems like post collection name is wrong or file don't exist in the path :(")
+    print("seems like postman collection name is wrong or file don't exist in the path :(")
     exit()
 
 proxy = {"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}
