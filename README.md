@@ -4,6 +4,7 @@ Developed was an in-house tool, 'Hook2proxy', facilitating the interception of a
 
 Commmand:
 
-python3 hook2proxy.py <POSTMAN_COLLECTION>
+`python3 hook2proxy.py <POSTMAN_COLLECTION>`
+
 
 
